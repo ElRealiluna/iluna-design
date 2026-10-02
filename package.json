@@ -1,12 +1,13 @@
 {
   "name": "iluna-design",
-  "version": "0.2.0",
-  "description": "Multi-agent orchestrator for design, development, and project management. Includes project intake, analysis, and recommendations.",
+  "version": "0.3.0",
+  "description": "Multi-agent orchestrator for design, project intake, planning, generation, QA, publishing and versioning.",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "project-orchestrator": "node src/project-orchestrator-cli.js",
+    "lifecycle": "node src/lifecycle-cli.js",
     "dev": "node --watch src/index.js",
     "test": "node --test"
   },
@@ -16,7 +17,8 @@
     "design",
     "project-management",
     "recommendations",
-    "stack-selection"
+    "stack-selection",
+    "lifecycle"
   ],
   "license": "MIT"
 }
