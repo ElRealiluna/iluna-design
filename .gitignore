@@ -1,0 +1,5 @@
+# iluna-design
+
+**This repo intentionally avoids heavy dependencies.**
+
+The idea is to model a simple delegation engine that can route work to specialists.

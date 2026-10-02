@@ -1,0 +1,20 @@
+{
+  "name": "iluna-design",
+  "version": "0.1.0",
+  "description": "An orchestrator that routes design, UX, and code tasks to the right agent.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "agent",
+    "design",
+    "ui",
+    "ux",
+    "orchestration"
+  ],
+  "license": "MIT"
+}
