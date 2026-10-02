@@ -1,20 +1,22 @@
 {
   "name": "iluna-design",
-  "version": "0.1.0",
-  "description": "An orchestrator that routes design, UX, and code tasks to the right agent.",
+  "version": "0.2.0",
+  "description": "Multi-agent orchestrator for design, development, and project management. Includes project intake, analysis, and recommendations.",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
+    "project-orchestrator": "node src/project-orchestrator-cli.js",
     "dev": "node --watch src/index.js",
     "test": "node --test"
   },
   "keywords": [
     "agent",
+    "orchestration",
     "design",
-    "ui",
-    "ux",
-    "orchestration"
+    "project-management",
+    "recommendations",
+    "stack-selection"
   ],
   "license": "MIT"
 }
